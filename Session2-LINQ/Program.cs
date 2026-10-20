@@ -169,6 +169,33 @@ namespace Session2_LINQ
             //{
             //    Console.WriteLine($"Item key: {item.Key} ---- Item Count: {item.Count()}");
             //}
+
+
+            //Question 13
+            //Group products by Category and project only product names per group
+
+           // var groups = from p in ProductList
+           //              group p by p.Category 
+           //              into Category
+           //              select new
+           //              {
+           //                  Category = Category.Key,
+           //                  ProductNames = Category.Select(p => p.ProductName)
+           //              };
+
+
+           // foreach (var group in groups)
+           // {
+           //     Console.WriteLine(group.Category);
+
+           //     foreach (var name in group.ProductNames)
+           //     {
+           //         Console.WriteLine(name);
+           //     }
+
+           //Console.WriteLine("-------------------------------------");
+
+           // }
         }
     }
 }
