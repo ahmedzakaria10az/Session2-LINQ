@@ -138,6 +138,16 @@ namespace Session2_LINQ
             //{
             //    Console.WriteLine(item);
             //}
+
+
+            //Question 10
+            //Check if ALL products in the"Seafood" category are in stock
+
+            //bool result = ProductList
+            //              .Where(p => p.Category == "Seafood")
+            //              .All(p => p.UnitsInStock > 0);
+
+            //Console.WriteLine(result);
         }
     }
 }
