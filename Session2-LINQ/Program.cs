@@ -8,6 +8,7 @@ namespace Session2_LINQ
         {
             //Question 1
             //Sort ProductList by Category ascending, then within each category, sort by UnitPrice descending.
+
             //var products = ProductList
             //               .OrderBy(p => p.Category)
             //               .ThenByDescending(p => p.UnitPrice);
@@ -20,6 +21,7 @@ namespace Session2_LINQ
 
             //Question 2
             //Get all products from the "Beverages" category, sorted by UnitsInStock descending. Print name and stock.
+
             //var products = ProductList
             //              .Where(p => p.Category == "Beverages")
             //              .OrderByDescending(p => p.UnitsInStock);
@@ -32,6 +34,7 @@ namespace Session2_LINQ
 
             //Question 3
             //Using QUERY SYNTAX with a compound from clause, list all orders placed in 1997 or later showing CustomerID and OrderDate.
+            
             //var orders = from c in CustomerList
             //             from o in c.Orders
             //             where o.OrderDate >= new DateTime(1997)
@@ -49,6 +52,7 @@ namespace Session2_LINQ
 
             //Question 4
             //Show position number alongside ProductName
+
             //var products = ProductList
             //              .Select((p,i) => new
             //               {
@@ -66,16 +70,35 @@ namespace Session2_LINQ
             //Question 5
             //Sort first by-word length and then by a case-insensitive sort of the words in an array.
             //String [] Arr = {"aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry"};
+
             //string[] Arr = {"aPPLE", "AbAcUs", "bRaNcH","BlUeBeRrY", "ClOvEr", "cHeRry"};
 
             //var words = Arr.OrderBy(s => s.Length)
             //               .ThenBy(s => s,StringComparer.OrdinalIgnoreCase);
-             
+
 
             //foreach (var item in words)
             //{
             //    Console.WriteLine(item);
             //}
+
+
+            //Question 6
+            //Create a list of all digits in the array whose second letter is 'i'
+            //at is reversed from the order in the original array.
+
+            //string[] Arr = {"aPPLE", "AbAcUs", "bRaNcH","BlUeBeRrY", "ClOvEr", "cHeRry"};
+
+            //var words = Arr.Where(s => s.Length > 1 && s[1] == 'i')
+            //               .Reverse();
+
+            //foreach (var item in words)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //
         }
     }
 }
