@@ -158,6 +158,17 @@ namespace Session2_LINQ
             //bool result = ids.Contains(9);
 
             //Console.WriteLine(result);
+
+
+            //Question 12
+            //Group all products by Category and print each group with its product count.
+
+            //var groups = ProductList.GroupBy(p => p.Category);
+
+            //foreach (var item in groups)
+            //{
+            //    Console.WriteLine($"Item key: {item.Key} ---- Item Count: {item.Count()}");
+            //}
         }
     }
 }
