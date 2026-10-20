@@ -297,9 +297,20 @@ namespace Session2_LINQ
             //Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID= 18.
 
             //Dictionary<int,Product> products = ProductList.ToDictionary(p => p.ProductID);
-            
+
             //Console.WriteLine(products[18]);
-           
+
+
+            //Question 22
+            //Get the first product whose price is greater than$50.
+
+            //var product = ProductList.First(p => p.UnitPrice > 50);
+
+            //Console.WriteLine(product);
+
+
+            //
+
         }
     }
 }
