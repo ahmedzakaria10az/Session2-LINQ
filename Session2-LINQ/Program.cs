@@ -258,6 +258,22 @@ namespace Session2_LINQ
             //{
             //    Console.WriteLine(item);
             //}
+
+
+            //Question 19
+            //find product IDs that are in setA but NOT in setB
+            //int[] setA={ 1, 3, 5, 7, 9, 11, 13};
+            //int[] setB={ 3, 6, 9, 12, 15, 13};
+
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+
+            //var result = setA.Except(setB);
+
+            //foreach (int item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }
