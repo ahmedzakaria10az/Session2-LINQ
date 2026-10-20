@@ -208,6 +208,26 @@ namespace Session2_LINQ
             //{
             //    Console.WriteLine($"Group key: {group.Key} ------ Group count: {group.Count()}");
             //}
+
+
+            //Question 15
+            //Using QUERY SYNTAX, group customers by Country, and for each group select{ Country, Count, TotalOrderValue}.
+
+            //var result = from c in CustomerList
+            //             group c by c.Country 
+            //             into g
+            //             select new
+            //             {
+            //                 Country = g.Key,
+            //                 Count = g.Count(),
+            //                 TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //             };
+
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"item Country: {item.Country} - Count: {item.Count} - Total: {item.TotalOrderValue}");
+            //}
         }
     }
 }
