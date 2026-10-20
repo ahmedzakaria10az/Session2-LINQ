@@ -148,6 +148,16 @@ namespace Session2_LINQ
             //              .All(p => p.UnitsInStock > 0);
 
             //Console.WriteLine(result);
+
+
+            //Question 11
+            //Check if the ID list contains 9 int[] ids={ 3, 9, 13, 18};
+
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //bool result = ids.Contains(9);
+
+            //Console.WriteLine(result);
         }
     }
 }
