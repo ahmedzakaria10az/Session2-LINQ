@@ -270,9 +270,25 @@ namespace Session2_LINQ
 
             //var result = setA.Except(setB);
 
-            //foreach (int item in result)
+            //foreach (int num in result)
             //{
-            //    Console.WriteLine(item);
+            //    Console.WriteLine(num);
+            //}
+
+
+            //Question 20
+            //Find countries that appear in list1 but NOT in list2 (case-insensitive).
+            //string[] list1={"Germany","France","UK","Spain"};
+            //string[] list2={"france","SPAIN","Italy"};
+
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var result = list1.Except(list2,StringComparer.OrdinalIgnoreCase);
+
+            //foreach (string country in result)
+            //{
+            //    Console.WriteLine(country);
             //}
         }
     }
