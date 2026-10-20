@@ -45,6 +45,22 @@ namespace Session2_LINQ
             //{
             //    Console.WriteLine(item);
             //}
+
+
+            //Question 4
+            //Show position number alongside ProductName
+            //var products = ProductList
+            //              .Select((p,i) => new
+            //               {
+            //                  Position = i + 1,
+            //                  p.ProductName
+            //               });
+
+
+            //foreach (var item in products)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }
