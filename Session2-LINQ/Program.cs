@@ -113,12 +113,26 @@ namespace Session2_LINQ
 
             //Question 8
             //show page 2 of products, with page size= 5
+
             //int pageNumber = 2;
             //int pageSize = 5;
 
             //var products = ProductList
             //              .Skip((pageNumber - 1) * pageSize)
             //              .Take(pageSize);
+
+            //foreach (var item in products)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //Question 9
+            //Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+
+            //var products = ProductList
+            //               .OrderBy(p => p.UnitPrice)
+            //               .TakeWhile(p => p.UnitPrice < 25);
 
             //foreach (var item in products)
             //{
