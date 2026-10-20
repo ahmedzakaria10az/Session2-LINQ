@@ -236,6 +236,16 @@ namespace Session2_LINQ
             //var total = ProductList.Sum(p => p.UnitsInStock);
 
             //Console.WriteLine(total);
+
+
+            //Question 17
+            //Find the CHEAPEST and MOST EXPENSIVE product prices
+
+            //var cheapest = ProductList.Min(p => p.UnitPrice);
+            //var expensive = ProductList.Max(p => p.UnitPrice);
+
+            //Console.WriteLine($"Cheapest: {cheapest}");
+            //Console.WriteLine($"Most Expensive: {expensive}");
         }
     }
 }
