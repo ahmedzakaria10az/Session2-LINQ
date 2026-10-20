@@ -8,18 +8,26 @@ namespace Session2_LINQ
         {
             //Question 1
             //Sort ProductList by Category ascending, then within each category, sort by UnitPrice descending.
-            var products = ProductList
-                           .OrderBy(p => p.Category)
-                           .ThenByDescending(p => p.UnitPrice);
+            //var products = ProductList
+            //               .OrderBy(p => p.Category)
+            //               .ThenByDescending(p => p.UnitPrice);
 
-            foreach (var item in products)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (var item in products)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
 
             //Question 2
             //Get all products from the "Beverages" category, sorted by UnitsInStock descending. Print name and stock.
+            //var products = ProductList
+            //              .Where(p => p.Category == "Beverages")
+            //              .OrderByDescending(p => p.UnitsInStock);
 
+            //foreach (var p in products)
+            //{
+            //    Console.WriteLine($"ProductName: {p.ProductName} ---- UnitsInStock: {p.UnitsInStock}");
+            //}
         }
     }
 }
