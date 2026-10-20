@@ -174,28 +174,40 @@ namespace Session2_LINQ
             //Question 13
             //Group products by Category and project only product names per group
 
-           // var groups = from p in ProductList
-           //              group p by p.Category 
-           //              into Category
-           //              select new
-           //              {
-           //                  Category = Category.Key,
-           //                  ProductNames = Category.Select(p => p.ProductName)
-           //              };
+            // var groups = from p in ProductList
+            //              group p by p.Category 
+            //              into Category
+            //              select new
+            //              {
+            //                  Category = Category.Key,
+            //                  ProductNames = Category.Select(p => p.ProductName)
+            //              };
 
 
-           // foreach (var group in groups)
-           // {
-           //     Console.WriteLine(group.Category);
+            // foreach (var group in groups)
+            // {
+            //     Console.WriteLine(group.Category);
 
-           //     foreach (var name in group.ProductNames)
-           //     {
-           //         Console.WriteLine(name);
-           //     }
+            //     foreach (var name in group.ProductNames)
+            //     {
+            //         Console.WriteLine(name);
+            //     }
 
-           //Console.WriteLine("-------------------------------------");
+            //Console.WriteLine("-------------------------------------");
 
-           // }
+            // }
+
+
+            //Question 14
+            //Find all categories that have MORE THAN 3 products
+
+            //var categories = ProductList.GroupBy(p => p.Category)
+            //                            .Where(g => g.Count() > 3);
+
+            //foreach (var group in categories)
+            //{
+            //    Console.WriteLine($"Group key: {group.Key} ------ Group count: {group.Count()}");
+            //}
         }
     }
 }
