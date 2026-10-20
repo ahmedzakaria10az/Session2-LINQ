@@ -246,6 +246,18 @@ namespace Session2_LINQ
 
             //Console.WriteLine($"Cheapest: {cheapest}");
             //Console.WriteLine($"Most Expensive: {expensive}");
+
+
+            //Question 18
+            //Get a distinct list of all product categories
+
+            //var categories = ProductList.Select(p => p.Category)
+            //                            .Distinct();
+
+            //foreach (var item in categories)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }
