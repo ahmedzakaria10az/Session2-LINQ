@@ -340,6 +340,19 @@ namespace Session2_LINQ
             //    Console.WriteLine(num);
             //}
 
+
+            //Question 26
+            //Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+
+            //var names = ProductList.Take(3).Select(p => p.ProductName)
+            //            .Concat(CustomerList.Take(3).Select(c => c.CustomerName));
+
+
+            //foreach (var name in names)
+            //{
+            //    Console.WriteLine(name);
+            //}
+
         }
     }
 }
