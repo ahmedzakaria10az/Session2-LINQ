@@ -316,6 +316,18 @@ namespace Session2_LINQ
 
             //Console.WriteLine(product);
 
+
+            //Question 24
+            //Generate a multiplication table row for 7
+
+            //var numbers = Enumerable.Range(1,5)
+            //                        .Select(n => n*7);
+
+            //foreach (var num in numbers)
+            //{
+            //    Console.WriteLine(num);
+            //}
+
         }
     }
 }
