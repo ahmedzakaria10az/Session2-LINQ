@@ -228,6 +228,14 @@ namespace Session2_LINQ
             //{
             //    Console.WriteLine($"item Country: {item.Country} - Count: {item.Count} - Total: {item.TotalOrderValue}");
             //}
+
+
+            //Question 16
+            //Calculate the total number of units in stock across all products
+
+            //var total = ProductList.Sum(p => p.UnitsInStock);
+
+            //Console.WriteLine(total);
         }
     }
 }
