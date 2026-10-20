@@ -1,4 +1,5 @@
-﻿using static LINQ.DataSources.Source;
+﻿using LINQ.Models;
+using static LINQ.DataSources.Source;
 
 namespace Session2_LINQ
 {
@@ -290,6 +291,15 @@ namespace Session2_LINQ
             //{
             //    Console.WriteLine(country);
             //}
+
+
+            //Question 21
+            //Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID= 18.
+
+            //Dictionary<int,Product> products = ProductList.ToDictionary(p => p.ProductID);
+            
+            //Console.WriteLine(products[18]);
+           
         }
     }
 }
