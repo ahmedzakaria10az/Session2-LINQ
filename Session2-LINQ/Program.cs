@@ -309,7 +309,12 @@ namespace Session2_LINQ
             //Console.WriteLine(product);
 
 
-            //
+            //Question 23
+            //Try to get the first product with a price>$500. it returns null instead of throwing.
+
+            //var product = ProductList.FirstOrDefault(p => p.UnitPrice > 500,new Product() {ProductName="Not Found"});
+
+            //Console.WriteLine(product);
 
         }
     }
