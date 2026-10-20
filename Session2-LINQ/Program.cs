@@ -34,7 +34,7 @@ namespace Session2_LINQ
 
             //Question 3
             //Using QUERY SYNTAX with a compound from clause, list all orders placed in 1997 or later showing CustomerID and OrderDate.
-            
+
             //var orders = from c in CustomerList
             //             from o in c.Orders
             //             where o.OrderDate >= new DateTime(1997)
@@ -98,7 +98,20 @@ namespace Session2_LINQ
             //}
 
 
-            //
+            //Question 7
+            //Get top 3 most expensive products
+
+            //var products = ProductList
+            //               .OrderByDescending(p => p.UnitPrice)
+            //               .Take(3);
+
+            //foreach (var item in products)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //Question 8
         }
     }
 }
