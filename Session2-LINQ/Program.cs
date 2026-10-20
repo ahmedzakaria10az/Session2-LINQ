@@ -55,9 +55,24 @@ namespace Session2_LINQ
             //                  Position = i + 1,
             //                  p.ProductName
             //               });
-            
+
 
             //foreach (var item in products)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //Question 5
+            //Sort first by-word length and then by a case-insensitive sort of the words in an array.
+            //String [] Arr = {"aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry"};
+            //string[] Arr = {"aPPLE", "AbAcUs", "bRaNcH","BlUeBeRrY", "ClOvEr", "cHeRry"};
+
+            //var words = Arr.OrderBy(s => s.Length)
+            //               .ThenBy(s => s,StringComparer.OrdinalIgnoreCase);
+             
+
+            //foreach (var item in words)
             //{
             //    Console.WriteLine(item);
             //}
