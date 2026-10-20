@@ -328,6 +328,18 @@ namespace Session2_LINQ
             //    Console.WriteLine(num);
             //}
 
+
+            //Question 25
+            //Generate even numbers between 1 and 30.
+
+            //var numbers = Enumerable.Range(1,30)
+            //             .Where(n => n % 2 == 0);
+
+            //foreach (var num in numbers)
+            //{
+            //    Console.WriteLine(num);
+            //}
+
         }
     }
 }
